@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 43, 92);
+}
+
+.container {
+    width: 100vw;
+}
+
+header {
+    background-color: rgba(8, 64, 128, 0.39);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.content-logo {
+    background-color: #09568a;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    padding: 0 20px;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+.logo-title {
+    font-size: 25px;
+}
+
+
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+.link {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.link:hover {
+    color: #177fc4;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.main-content-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-title {
+    font-size: 25px;
+    margin-bottom: 25px;
+    width: 340px;
+}
+
+.landing-page {
+    color: #249cec;
+}
+
+.main-content-subtitle {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    width: 450px;
+}
+
+.main-content-button {
+    background-color: #249cec;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.main-content-button:hover {
+    background-color: #09568a;
+    color: rgb(230, 230, 230);
+}
+
+.image-main-first {
+    height: 430px;
+}
+
+#main-content-second {
+    background-color: rgb(2, 70, 148);
+    padding: 50px;
+}
+
+.daniel-matos {
+    color: #00e1ff;
+}
+
+.footer {
+    background-color: rgba(8, 64, 128, 0.39);
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.footer-content-info {
+    color: white;
+    font-size: 15px;
+    width: 600px;
+}
